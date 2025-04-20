@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta name="description" content="Swetank Rathi is a Full Stack web developer and engineering leader from India">
+    <meta name="author" content="Swetank Rathi">
+    <meta name="keywords" content="Web Developer, Full-stack Developer, Front-end Developer, Engineering Leader, Freelance, Freelancer, India">
+    <title>Swetank Rathi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png">
+    <style>
+    	body {
+    	    font-family: 'Montserrat', sans-serif;
+    	    color: #333;
+    	}
+    	#body-wrapper {
+    	    padding-top: 6rem;
+    	    padding-bottom: 4rem;
+    	}
+    	h1, .heading {
+    	    font-family: 'Montserrat', sans-serif;
+    	}
+    	#hello {
+    	    font-size: 5rem;
+    	    color: #666;
+    	    margin-bottom: 0;
+    	}
+    	#name {
+    	    color: #666;
+    	    margin-bottom: 2rem;
+    	}
+    	#page-background {
+    	    position: fixed;
+    	    top: 0;
+    	    left: 0;
+    	    width: 100%;
+    	    height: 100%;
+    	}
+    	@media screen and (max-width: 576px) {
+    	    #hello {
+    	        font-size: 4rem;
+    	    }
+    	    #name {
+    	        font-size: 1.8rem;
+    	    }
+    	}
+    </style>
+</head>
+
+<body>
+	<div id="page-background"></div>
+    <div id="body-wrapper">
+        <div class="container">
+        	<div class="row">
+        		<div class="col-12 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-xs-12">
+        			<p id="hello" class="heading font-weight-bold">hello!</p>
+        			<h1 id="name">I am Swetank Rathi</h1>
+        			<p>
+        				A full-stack web developer and JavaScript enthusiast from India, having a huge interest in front-end. I focus on user experience, performance of web apps, clean code and minimalism. After having a Master of Computer Applications degree, I have contributed to many web applications in multiple domains while working for more than 9 years with many fastest growing startups.<br><br>
+        				
+						My core tech stack includes JavaScript, Angular, AngularJS, HTML5, and CSS3. I also know a couple of things about TailwindCSS, Web Application Architecture, Web Performance, Frontend architecture, NodeJs, MongoDB, and Laravel etc.<br>
+        			</p>
+        			<p>
+        				I am always up for a good project and a great team. Let's get in touch if you are building something interesting.
+        			</p>
+        			<div>
+        				<a href="https://www.linkedin.com/in/swetankrathi" class="btn btn-outline-secondary btn-sm">Linkedin</a>
+        				<a href="https://twitter.com/swetankrathi" class="btn btn-outline-secondary btn-sm">Twitter</a>
+        				<a href="https://codecustody.com" class="btn btn-outline-secondary btn-sm">Blog</a>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+    </div>
+    <script src="js/jquery.particleground.min.js"></script>
+    <script>
+    	if(window.innerWidth < 567){
+    		particleground(document.getElementById('page-background'), {
+    			dotColor: '#f5f5f5',
+    			lineColor: 'transparent',
+    			density: 100000,
+    			particleRadius: 60,
+    			parallax: false
+    		});
+    	} else {
+	    	particleground(document.getElementById('page-background'), {
+	    		dotColor: '#fafafa',
+	    		lineColor: 'transparent',
+	    		density: 100000,
+	    		particleRadius: 50,
+	    		parallax: false
+	    	});
+	    }
+    </script>
+</body>
+
+</html>
